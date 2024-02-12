@@ -1,0 +1,23 @@
+{
+  "name": "cjs-bundle",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Creates a commonjs bundle of a given NPM package",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/es-tooling/cjs-bundle.git"
+  },
+  "author": "James Garbutt (https://github.com/43081j)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/es-tooling/cjs-bundle/issues"
+  },
+  "homepage": "https://github.com/es-tooling/cjs-bundle#readme",
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
