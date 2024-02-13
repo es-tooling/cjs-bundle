@@ -1,11 +1,13 @@
 {
   "name": "cjs-bundle",
   "private": true,
+  "type": "module",
   "version": "0.0.1",
   "description": "Creates a commonjs bundle of a given NPM package",
   "main": "lib/main.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "format": "prettier --write \"scripts/*.js\""
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/es-tooling/cjs-bundle#readme",
   "devDependencies": {
-    "esbuild": "^0.20.0"
+    "commander": "^12.0.0",
+    "esbuild": "^0.20.0",
+    "prettier": "^3.2.5"
   }
 }

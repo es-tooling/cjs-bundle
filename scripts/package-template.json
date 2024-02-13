@@ -1,0 +1,27 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "files": [
+    "./main.js"
+  ],
+  "exports": {
+    ".": "./main.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/es-tooling/cjs-bundle.git"
+  },
+  "author": "James Garbutt (https://github.com/43081j)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/es-tooling/cjs-bundle/issues"
+  },
+  "homepage": "https://github.com/es-tooling/cjs-bundle#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
+}
