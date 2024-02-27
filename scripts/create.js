@@ -99,7 +99,7 @@ async function createBundle(opts) {
   await esbuild.build({
     bundle: true,
     absWorkingDir: cwd,
-    stdin: {contents: `export * from 'chai';`, resolveDir: cwd},
+    stdin: {contents: `export * from '${name}';`, resolveDir: cwd},
     format: 'cjs',
     outfile: bundlePath
   });
